@@ -41,7 +41,7 @@ end
 local ScreenGui = cre("ScreenGui", ParentGui, {Name = "MikeySpeedHub", ResetOnSpawn = false})
 
 -- 1. Thanh Trên Cùng (Mặc định ẨN khi vừa chạy script vì GUI chính đang MỞ)
-local TopBar = cre("TextButton", ScreenGui, {Name = "TopBarToggle", Size = UDim2.new(0, 160, 0, 28), Position = UDim2.new(0.5, -80, 0, 5), BackgroundColor3 = Color3.fromRGB(25, 25, 30), Text = "⚡ Click để Hiện UI", TextColor3 = Color3.fromRGB(255, 255, 255), Font = Enum.Font.GothamBold, TextSize = 11, AutoButtonColor = false, Visible = false})
+local TopBar = cre("TextButton", ScreenGui, {Name = "TopBarToggle", Size = UDim2.new(0, 160, 0, 28), Position = UDim2.new(0.5, -80, 0, 5), BackgroundColor3 = Color3.fromRGB(25, 25, 30), Text = "ẤN ĐỂ HIỆN UI", TextColor3 = Color3.fromRGB(255, 255, 255), Font = Enum.Font.GothamBold, TextSize = 11, AutoButtonColor = false, Visible = false})
 cre("UICorner", TopBar, {CornerRadius = UDim.new(0, 6)})
 cre("UIStroke", TopBar, {Color = Color3.fromRGB(74, 77, 240)})
 
